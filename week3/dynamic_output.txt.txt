@@ -1,0 +1,86 @@
+dynamic_output.txt
+dynamic.sh
+file11.tar
+file11.tar.tbz
+file11.txt
+file.tar
+file.tar.gz
+head1.h
+lab.sh
+main1.c
+main1_obj.o
+main_result
+main_result1
+reverse.c
+reverse_obj.o
+s_dynamic.so
+s_static.a
+static_output.txt
+string1.c
+string.c
+string_obj.o
+tar.sh
+
+
+dynamic_output.txt
+dynamic.sh
+file11.tar
+file11.tar.tbz
+file11.txt
+file.tar
+file.tar.gz
+head1.h
+lab.sh
+main1.c
+main1_obj.o
+main_result
+main_result1
+reverse.c
+reverse_obj.o
+s_dynamic.so
+s_static.a
+static_output.txt
+string1.c
+string.c
+string_obj.o
+tar.sh
+
+
+
+original string: hi this is shell scripting
+reversed string : gnitpircs llehs si siht ih
+number of consonants : 16
+
+
+
+original string: hi this is shell scripting
+reversed string : gnitpircs llehs si siht ih
+number of consonants : 16
+
+dynamic_output.txt
+dynamic.sh
+file11.tar
+file11.tar.tbz
+file11.txt
+file.tar
+file.tar.gz
+head1.h
+lab.sh
+main1.c
+main1_obj.o
+main_result
+main_result1
+reverse.c
+reverse_obj.o
+s_dynamic.so
+s_static.a
+static_output.txt
+string1.c
+string.c
+string_obj.o
+tar.sh
+
+	linux-vdso.so.1 (0x00007ffcc8fda000)
+	s_dynamic.so (0x00007f08d64b8000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f08d62b4000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f08d64c4000)

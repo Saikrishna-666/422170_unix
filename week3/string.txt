@@ -1,0 +1,47 @@
+// main1.c
+#include <stdio.h>
+#include "head1.h"
+int main(){
+ char string[]="hi this is shell scripting";
+ printf("original string: %s\n",string);
+ reverse(string);
+ printf("reversed string : %s\n",string);
+ printf("number of consonants : %d\n",consonant_count(string));
+ return 0;
+ 
+}
+
+
+//string.c - to count no of consonants
+
+#include <stdio.h>
+#include <string.h>
+
+int consonant_count(const char *string){
+ int length=strlen(string);
+ int count=0;
+ for(int i=0;string[i]!='\0';i++){
+  if(strchr("bBcCdDfFgGhHjJkKlLmMnNpPqQrRsStTwWxXyYzZ",string[i])){
+   count++;
+  }
+ }
+ return count;
+}
+
+
+// reverse.c - to reverse a string
+#include<stdio.h>
+#include<string.h>
+
+void reverse(char *string){
+ int length=strlen(string);
+ for(int i=0;i<length/2;i++){
+  char temp=string[i];
+  string[i]=string[length-i-1];
+  string[length-i-1]=temp;
+ }
+}
+
+// head1.h -head file
+int consonant_count(const char *string);
+void reverse(char *string);

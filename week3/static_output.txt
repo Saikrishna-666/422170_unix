@@ -1,0 +1,47 @@
+file11.tar
+file11.tar.tbz
+file11.txt
+file.tar
+file.tar.gz
+head1.h
+lab.sh
+main1.c
+main1_obj.o
+main_result
+reverse.c
+reverse_obj.o
+s_static.a
+static_output.txt
+string1.c
+string.c
+string_obj.o
+tar.sh
+
+
+
+
+
+file11.tar
+file11.tar.tbz
+file11.txt
+file.tar
+file.tar.gz
+head1.h
+lab.sh
+main1.c
+main1_obj.o
+main_result
+reverse.c
+reverse_obj.o
+s_static.a
+static_output.txt
+string1.c
+string.c
+string_obj.o
+tar.sh
+
+
+
+original string: hi this is shell scripting
+reversed string : gnitpircs llehs si siht ih
+number of consonants : 16

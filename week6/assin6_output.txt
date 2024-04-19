@@ -1,0 +1,32 @@
+sudo chown student:adm file1.txt
+
+sudo chgrp adm file1.txt
+
+dd if=file1.txt of=output_file.txt
+
+diff file1.txt file2.txt
+2,3d1
+< banana
+< grape
+4a3,4
+> papaya
+> guava
+
+finger student
+
+find output_file.txt
+output_file.txt
+
+lock file2.txt
+
+ln -s file1.txt symbolic_link.txt
+ln file2.txt hard_link.txt
+
+lp file2.txt
+
+lpstat -p
+
+mesg y
+
+ftp vsftpd.com 
+ftp> 
